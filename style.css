@@ -1,0 +1,179 @@
+/* https://youtu.be/qAdNFynuLOQ */
+body {
+  background-color: rgb(71,154,95);
+  font-family: Sans-serif;
+  font-size:20px;
+  box-sizing:border-box;
+  margin-left:9px;
+  margin-right:4px;
+}
+h1 {
+  color: rgb(34, 68,13);
+  font-size:2em;
+  text-align:center;
+  margin-top:40px;
+}
+h2 {
+  color:rgb(157,44,47);
+  font-size:1.5em;
+ text-align:center;
+  margin-top:23px;
+}
+p {
+  font-family:sans-serif;
+  font-size:20px;
+  margin-left:6px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+strong {
+  color:purple;
+}
+header {
+  background:#35e6ba;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  top:0px;
+}
+header::after {
+  content:'';
+  display:table;
+  clear:both;
+}
+.logo {
+  float:left;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  border:2px solid #08034f;
+  width:5em;
+  height:2.2em;
+  text-align:center;
+  letter-spacing:3px;
+  font-weight:bold;
+  color:black;
+  margin-left:12px;
+  background-color:orange;
+  margin-top:1px;
+  padding:6px;
+  padding-top:2px;
+ 
+}
+nav {
+  float:right;
+  margin-right:12px;
+  font-size:1.2rem;
+}
+nav ul {
+  padding:0;
+  list-style:none;
+}
+nav li {
+  display:inline-block;
+  margin-right:130px;
+  margin-left:5px;
+   margin-bottom:15px;
+  padding-top:19px;
+  position:relative;
+}
+nav a {
+  color:white;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+nav a:hover {
+  color:#911;
+}
+.top-ten {
+  color:blue;
+}
+.dish-types {
+  position:absolute;
+  font-size:50px;
+  margin-left:150px;
+  font-weight:bold;
+  margin-top:70px;
+}
+#cocktail {
+ width:100%;
+  margin-top:15px;
+}
+.homemade-dishes {
+ margin-bottom:23px;
+  padding:6px;
+  margin-top:15px;
+  font-size:25px;
+ }
+div.box {
+  text-align:center;
+  
+}
+#zigni {
+  width:70%;
+  margin-top:20px; 
+}
+.zigni {
+ margin-top:20px; 
+}
+#shiro {
+  width:70%;
+  margin-bottom:20px;
+}
+.shiro {
+  margin-top:20px;
+}
+#derho {
+  width:70%;
+  margin-bottom:23px; 
+}
+.derho {
+    margin-top:20px;
+}
+#gaat {
+  width:70%;
+   margin-top:0px;
+}
+.gaat {
+  margin-top:20px;
+}
+
+table {
+  width:80%;
+  text-align: center;
+  margin-left:9px;
+  margin-right:9px;
+  margin-bottom:19px;
+  border:4px solid green;
+}
+table th, td {
+  border:2px solid green;
+  
+}
+
+.footer {
+  background-color:rgb(123,191,66);
+  margin-top:-25px;
+  margin-bottom:0px;
+}
+.footer h3 {
+  text-align:center;
+  margin-bottom:65px;
+  margin-top:45px;
+  padding-top:35px;
+}
+.footer ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.footer li{
+  display:inline-block;
+  margin-left:90px;
+  padding-bottom:0px;
+  margin-bottom:40px;
+  position:relative;
+}
